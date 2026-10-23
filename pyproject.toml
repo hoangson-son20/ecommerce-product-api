@@ -1,0 +1,10 @@
+[project]
+name = "ecommerce-product-api"
+version = "0.1.0"
+description = "A REST API for managing products, categories, and sellers"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
